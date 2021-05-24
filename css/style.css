@@ -1,0 +1,74 @@
+.container {
+    width: 200px;
+    height: 100px;
+    background: black;
+    position: relative;
+}
+
+.timer {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    font-size: 3em;
+    color: white;
+    animation-name: timer; 
+    animation-duration: 1s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes timer {
+    0% {opacity: 1;
+    }
+    100% {opacity: 0;
+    }
+}
+
+#number1 {
+    animation-delay: 0;
+}
+
+#number2 {
+    animation-delay: 1s;
+}
+
+#number3 {
+    animation-delay: 2s;
+}
+
+#number4 {
+    animation-delay: 3s;
+}
+#number5 {
+    animation-delay: 4s;
+}
+
+#number6 {
+    animation-delay: 5s;
+}
+
+#number7 {
+    animation-delay: 6s;
+}
+
+#number8 {
+    animation-delay: 7s;
+}
+
+#number9 {
+    animation-delay: 8s;
+}
+
+#number10 {
+    animation-delay: 9s;
+}
+
+#love {
+    animation-delay: 10s;
+}
+
